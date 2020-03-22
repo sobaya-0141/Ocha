@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ocha.iml" filepath="$PROJECT_DIR$/Ocha.iml" group="Ocha" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Ocha/app" />
+      <module fileurl="file://$PROJECT_DIR$/ocha/ocha.iml" filepath="$PROJECT_DIR$/ocha/ocha.iml" group="Ocha/ocha" />
+    </modules>
+  </component>
+</project>
