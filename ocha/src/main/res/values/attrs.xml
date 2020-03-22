@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="Ocha">
-        <attr name="minFrame" format="integer" />
         <attr name="maxFrame" format="integer" />
         <attr name="rawRes" format="reference" />
     </declare-styleable>

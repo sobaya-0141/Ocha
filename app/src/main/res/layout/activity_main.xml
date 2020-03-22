@@ -16,7 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="500dp"
             app:frame="@={viewModel.frame}"
-            app:minFrame="0"
             app:maxFrame="40"
             app:rawRes="@raw/weight"
             app:layout_constraintBottom_toBottomOf="parent"

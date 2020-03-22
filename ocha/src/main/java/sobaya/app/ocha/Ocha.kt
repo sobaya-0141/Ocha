@@ -20,18 +20,15 @@ class Ocha @JvmOverloads constructor(
     init {
         LayoutInflater.from(context).inflate(R.layout.ocha_view, this, true)
         val ta = context.obtainStyledAttributes(attrs, R.styleable.Ocha)
-        val min = ta.getInt(R.styleable.Ocha_minFrame, 0)
         val max = ta.getInt(R.styleable.Ocha_maxFrame, 100)
         val res = ta.getResourceId(R.styleable.Ocha_rawRes, 0)
 
         findViewById<LottieAnimationView>(R.id.animationView).apply {
             setAnimation(res)
-            setMinFrame(min)
             setMaxFrame(max)
         }
         findViewById<SeekBar>(R.id.seekBar).apply {
-            this.min = min
-            this.max = max
+            setMax(max)
         }
     }
 
